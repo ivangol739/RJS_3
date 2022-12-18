@@ -1,0 +1,50 @@
+body {
+    background: black;
+}
+
+.title {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.field {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 496px;
+    width: 496px;
+}
+
+.cell {
+    background: white;
+    width: 120px;
+    height: 120px;
+    border: red 2px solid;
+}
+
+.goblin {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/goblin.png);
+}
+
+.score {
+    display: flex;
+    height: 70px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+p {
+    font-size: 30px;
+    color: yellow;
+}
